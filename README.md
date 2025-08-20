@@ -16,4 +16,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 # authentication
- the login page is successul
+ the login page is successful
+
+ http://192.168.18.40:8084/api/users/login?username=$username&password=$password  this is the api link used to login
