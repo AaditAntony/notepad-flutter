@@ -20,4 +20,4 @@ samples, guidance on mobile development, and a full API reference.
 
  http://192.168.18.40:8084/api/users/login?username=$username&password=$password  this is the api link used to login
 
- consist of the working with the backend java created for the notepad
+ consist of the working with the backend java created for the notepade
