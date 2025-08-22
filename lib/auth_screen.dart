@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart'as http;
+
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
 
@@ -20,12 +21,12 @@ class _AuthScreenState extends State<AuthScreen> {
       appBar: AppBar(title: Text("Login Section")),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Column(
+        child: Column(mainAxisAlignment: MainAxisAlignment.end,
           children: [
             // Email controller
             TextField(
               controller: username,
-              decoration: InputDecoration(labelText: "Email",
+              decoration: InputDecoration(labelText: "Username",
 
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
@@ -44,13 +45,17 @@ class _AuthScreenState extends State<AuthScreen> {
                 ),
               ),
             ),
-
+SizedBox(height: height*0.03,),
             // button to login
 
             ElevatedButton(onPressed: (){
 login(username.text.trim(), password.text.trim());
 
-            }, child: Text("Login"))
+            }, child: Text("Login")),
+
+            // register screen direction
+            
+
           ],
         ),
       ),
