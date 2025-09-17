@@ -32,3 +32,5 @@ git add . // used to add the all file
 git add filename.extension // used to add the one file
 git add --all 
 git push -u origin master
+$ git branch -m master main // to change the branch name
+$ git push -u origin main // to push the name
