@@ -25,4 +25,6 @@ samples, guidance on mobile development, and a full API reference.
 
 ls -a // used to show the hidden folder
 
+git add . // used to add the file
+
 ls // to see the folder
