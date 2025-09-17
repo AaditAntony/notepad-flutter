@@ -31,3 +31,4 @@ ls // to see the folder
 git add . // used to add the all file
 git add filename.extension // used to add the one file
 git add --all 
+git push -u origin master
