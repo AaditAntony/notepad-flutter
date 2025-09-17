@@ -24,3 +24,5 @@ samples, guidance on mobile development, and a full API reference.
  where the java is connected with the flutter
 
 ls -a // used to show the hidden folder
+
+ls // to see the folder
