@@ -22,3 +22,5 @@ samples, guidance on mobile development, and a full API reference.
 
  consist of the working with the backend java created for the notepad
  where the java is connected with the flutter
+
+ls -a // used to show the hidden folder
