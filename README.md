@@ -24,12 +24,8 @@ samples, guidance on mobile development, and a full API reference.
  where the java is connected with the flutter
 
 ls -a // used to show the hidden folder
-
 ls // to see the folder
-
-
 git add . // used to add the all file
-
 // creating the file for the merge
 git add filename.extension // used to add the one file
 git add --all 
@@ -41,3 +37,5 @@ git checkout -b feature-vort  // to create and move the branch at the same time
 
 // use gitinit to create the git repository
 // create the file called index.html with the basic content
+// use git add .
+// do the commit message
