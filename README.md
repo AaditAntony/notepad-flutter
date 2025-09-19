@@ -37,3 +37,5 @@ git push -u origin master
 $ git branch -m master main // to change the branch name
 $ git push -u origin main // to push the name
 git checkout -b feature-vort  // to create and move the branch at the same time
+
+// use gitinit to create the git repository
