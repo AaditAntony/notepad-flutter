@@ -26,6 +26,7 @@ samples, guidance on mobile development, and a full API reference.
 ls -a // used to show the hidden folder
 ls // to see the folder
 git add . // used to add the all file
+// add additional content in the feature branch
 // creating the file for the merge
 git add filename.extension // used to add the one file
 git add --all 
