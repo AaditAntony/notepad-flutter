@@ -41,3 +41,5 @@ git checkout -b feature branch // to checkout and to create the feature branch
 // create the file called index.html with the basic content
 // use git add .
 // do the commit message
+// now add the additonal create content using git add .
+// do the commit message for the branch
