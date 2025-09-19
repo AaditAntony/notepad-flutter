@@ -39,3 +39,4 @@ $ git push -u origin main // to push the name
 git checkout -b feature-vort  // to create and move the branch at the same time
 
 // use gitinit to create the git repository
+// create the file called index.html with the basic content
